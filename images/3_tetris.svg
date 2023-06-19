@@ -1,0 +1,21 @@
+<svg width="94" height="140" viewBox="0 0 94 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.000488281" y="46.6675" width="46.6669" height="46.6669" fill="black"/>
+<rect x="46.667" y="46.6675" width="46.6669" height="46.6669" fill="#C1FFDA"/>
+<rect x="46.667" y="46.6675" width="46.6669" height="46.6669" fill="#C1FFDA"/>
+<rect x="0.00146484" width="46.6669" height="46.6669" fill="#C1FFDA"/>
+<rect x="46.667" y="93.333" width="46.6669" height="46.6669" fill="black"/>
+<path d="M44.9502 48.3842H29.2083L44.9502 72.3394V48.3842Z" fill="white" stroke="black" stroke-width="3.43352"/>
+<path d="M1.71725 48.3842H17.4592L1.71725 72.3394V48.3842Z" fill="white" stroke="black" stroke-width="3.43352"/>
+<ellipse cx="16.1552" cy="17.2765" rx="4.4872" ry="5.609" fill="black"/>
+<ellipse cx="17.0522" cy="15.8182" rx="2.2436" ry="2.8045" fill="white"/>
+<line x1="13.1287" y1="14.1503" x2="9.88394" y2="11.369" stroke="black" stroke-width="0.213537" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="14.1734" y1="12.8432" x2="12.0755" y2="9.11991" stroke="black" stroke-width="0.213537" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="15.867" y1="12.417" x2="15.169" y2="8.20071" stroke="black" stroke-width="0.213537" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.0649 28.3887C18.5927 30.8516 25.0483 34.2998 30.6483 28.3887" stroke="black" stroke-width="4.23086" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.215683 0.215571V17.7006C10.3742 16.2498 21.3077 12.989 30.0246 9.49228C34.4179 7.72989 38.2433 5.9095 41.1197 4.23363C42.5581 3.39557 43.7553 2.59587 44.6664 1.85995C45.4159 1.2546 45.9598 0.701786 46.2883 0.215571H0.215683Z" fill="black" stroke="black" stroke-width="0.431141"/>
+<ellipse cx="4.4872" cy="5.609" rx="4.4872" ry="5.609" transform="matrix(-1 0 0 1 35.8979 12.5645)" fill="black"/>
+<line x1="2.11543" y1="-2.11543" x2="5.96153" y2="-2.11543" transform="matrix(0.869495 -0.493942 -0.493942 -0.869495 32.4648 16.5527)" stroke="black" stroke-width="4.23086" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2.11543" y1="-2.11543" x2="5.96153" y2="-2.11543" transform="matrix(0.621148 -0.783693 -0.783693 -0.621148 31.4072 13.8613)" stroke="black" stroke-width="4.23086" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2.11543" y1="-2.11543" x2="5.96153" y2="-2.11543" transform="matrix(0 -1 -1 0 28.7183 15.2554)" stroke="black" stroke-width="4.23086" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="2.2436" cy="2.8045" rx="2.2436" ry="2.8045" transform="matrix(-1 0 0 1 32.7573 13.9087)" fill="white"/>
+</svg>
