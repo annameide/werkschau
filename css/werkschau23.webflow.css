@@ -53,6 +53,15 @@ p {
   margin-bottom: 24px;
 }
 
+a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #222;
+}
+
 img {
   max-width: 100%;
   margin-bottom: 24px;
@@ -64,6 +73,7 @@ em {
 }
 
 .body {
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
   display: flex;
@@ -126,6 +136,10 @@ em {
   color: #b3b3b3;
   font-size: 14px;
   line-height: 18px;
+}
+
+.footer.centered {
+  text-align: center;
 }
 
 .button-nav {
