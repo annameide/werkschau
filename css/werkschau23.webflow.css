@@ -1,0 +1,330 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+body {
+  color: #222;
+  padding: 12px 24px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 117%;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+
+p {
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+em {
+  font-style: italic;
+}
+
+.body {
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+
+.heading {
+  filter: blur(5px);
+  color: #60f;
+  transition: filter .25s;
+}
+
+.heading:hover {
+  filter: blur();
+}
+
+.grid {
+  grid-row-gap: 16px;
+  grid-template: "Machine-Learning CItyLab Tetris"
+                 "CL-Praktikum Center-Area Wonderpose"
+                 "Rebhuhn Seed-Tracker Parametric-Design"
+                 / 1fr 1fr 1fr;
+}
+
+.project-link {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  color: #222;
+  cursor: pointer;
+  align-items: center;
+  margin: 24px 40px;
+  text-decoration: none;
+  display: flex;
+}
+
+.spacer {
+  width: 24px;
+  height: 24px;
+}
+
+.spacer._48 {
+  width: 48px;
+  height: 48px;
+}
+
+.spacer._96 {
+  width: 96px;
+  height: 96px;
+}
+
+.spacer._80 {
+  width: 80px;
+  height: 80px;
+}
+
+.heading-2 {
+  margin-bottom: 24px;
+}
+
+.footer {
+  color: #b3b3b3;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.button-nav {
+  z-index: 1;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #222;
+  background-color: rgba(255, 255, 255, .24);
+  background-image: url('../images/arrow-left.svg');
+  background-position: 8px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding-left: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 24px;
+}
+
+.button-nav:hover {
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.project-img {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+.p-sidebar {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.heading-3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content {
+  max-width: 1400px;
+}
+
+.button-sidebar {
+  z-index: 1;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #222;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.button-sidebar:hover {
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.col-sidebar {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.modal {
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.modal.ml-future, .modal.hidden, .modal.citylab1, .modal.housingtetris, .modal.wonderpose, .modal.parametric-design, .modal.seed-tracker, .modal.rebhuhn, .modal.citylab2 {
+  display: none;
+}
+
+.modal-bg {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background-color: rgba(255, 255, 255, .7);
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.modal-content {
+  max-width: 36%;
+  min-width: 640px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.modal-header {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  color: #222;
+  align-items: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+  display: flex;
+}
+
+.p-small {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button-modal {
+  z-index: 1;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #222;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: block;
+}
+
+.button-modal:hover {
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.button-modal.cta {
+  color: #fff;
+  background-color: #000;
+}
+
+.modal-img {
+  width: 20%;
+  margin-bottom: 0;
+}
+
+#w-node-_9b80dbfc-e7e5-6f61-69d7-63b09129e6cb-820577cf {
+  grid-area: Machine-Learning;
+  align-self: center;
+}
+
+#w-node-fe3b4b9b-cfd1-c359-9afd-0d830e139dcf-820577cf {
+  grid-area: CItyLab;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-e83da645-e04e-9240-7d40-17e4f590b25d-820577cf {
+  grid-area: Tetris;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-_596c483f-9ce1-4b9a-c59e-5e1a1a99da5f-820577cf {
+  grid-area: CL-Praktikum;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-_29febee8-a12c-9f8b-7623-6bcce9f6c7b2-820577cf {
+  grid-area: Wonderpose;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-a49208f9-513c-86aa-34b3-96138c540248-820577cf {
+  grid-area: Rebhuhn;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-_931ba072-6ee1-aef3-5510-f1455900ac37-820577cf {
+  grid-area: Seed-Tracker;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-cb991f2a-0277-e723-bb95-64b04a8815c2-820577cf {
+  grid-area: Parametric-Design;
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-_6d04072e-a32e-0d2e-acd8-a80e61e4382e-820577cf, #w-node-_929ce5b8-af93-dd1a-399d-28a4912e13bf-820577cf, #w-node-_8ad4e7e4-e2b8-82fb-3035-37305574eb1e-820577cf {
+  grid-area: Center-Area;
+}
+
+#w-node-_9420dacb-f0fa-b64a-f182-490cffc48159-820577cf {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
