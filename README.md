@@ -1,3 +1,3 @@
 # Werkschau
 
-Die vorliegende Webseite ist Teil meiner Bachelorarbeit. Die Seite wurde im visuellen Websitebuilder Webflow erstellt. Anschließend wurde der Code in GitHub übertragen, um den Code einerseits transparent zu machen und um die Seite andererseits online über GitHub pages hosten zu können. 
+Die Werkschau im Rahmen der Bachelorarbeit besteht in Form einer öffentlich zugänglichen Webseite. Die Seite wurde im visuellen Webseitenbuilder Webflow erstellt und wird auf GitHub Pages gehosted. Der Code kann jederzeit transparent eingesehen werden. Aufgrund der zeitlichen Rahmenbedingungen ist die Webseite ausschließlich für eine Desktopanwendung ausgelegt.
