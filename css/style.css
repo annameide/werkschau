@@ -1,0 +1,11 @@
+#containerforalgo4 {
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+  }
+  
+  #containerforalgo4 canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
