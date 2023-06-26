@@ -13,7 +13,7 @@ Definition:
  */
 
 
-const container4 = document.getElementById('containerforalgo4')
+const container4 = document.getElementById('containerforknn')
 
 
 function algorithm4(sketch) {
